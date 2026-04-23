@@ -42,3 +42,9 @@ print(number)
 
 # ********************************************************************************
 
+# Работа со списком
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+rand.shuffle(numbers)
+print(numbers)
+random_number = rand.choice(numbers)
+print(random_number)
