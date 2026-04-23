@@ -77,6 +77,19 @@ print(area)
 number = math.log(10, math.e)
 print(number)
 
+# Дополнительные математические функции, но не входят в модуль math. 
+# abs: возвращает абсолютное значение числа
+# min: возвращает минимальное значение из списка
+# max: возвращает максимальное значение из списка
 
+num1 = 3
+num2 = 8
+diff = abs(num1-num2)  # 5 найдем "расстояние" между двумя числами (абсолютную разность без учета знака):
+print(diff)   # 5
 
-
+numbers = [54, 23, 1, 4, 657, 2, -3, 56, 24]
+ 
+min_number = min(numbers)  # -3
+max_number = max(numbers)  # 657
+print("min:", min_number) 
+print("max:", max_number) 
